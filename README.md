@@ -73,4 +73,4 @@ The application will be available at **http://localhost:1234**.
 - **Source Transparency:** Each verification clearly states if it was sourced from "Web Search" or "AI Knowledge."
 
 ---
-Built with ❤️ using Gemini AI Grounding.
+
