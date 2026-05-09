@@ -47,7 +47,8 @@ const App = () => {
         const formData = new FormData();
         formData.append('pdf', file);
 
-        const API_URL = process.env.BACKEND_URL || 'http://localhost:5001';
+        const rawUrl = process.env.BACKEND_URL || 'http://localhost:5001';
+        const API_URL = rawUrl.endsWith('/') ? rawUrl.slice(0, -1) : rawUrl;
 
         setLoading(true);
         setError('');
